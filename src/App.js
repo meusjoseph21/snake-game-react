@@ -138,6 +138,9 @@ class App extends Component {
       <div className="game-area">
         <Snake snakeDots={this.state.snakeDots}/>
         <Food dot={this.state.food}/>
+        <h1 className="header">Snake</h1>
+        <p className="footer"> Score: {this.state.snakeDots.length}</p>
+        <footer className="title">Made by: Joey Meus</footer>
       
       </div>
     );
@@ -148,3 +151,4 @@ class App extends Component {
 }
 
 export default App;
+
